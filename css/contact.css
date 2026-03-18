@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Metal+Mania&display=swap');
+:root{
+    -font-heading: "Metal Mania", system-ui;
+    -font-paragraph:"Eagle Lake", serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c1 {
+    background: url(/project-img/br-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.c1::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(to right,#00000034) transparent;
+}

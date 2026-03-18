@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a1{
+     background: url(/project-img/br-aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     position: relative;
+}
+.a1::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(to right,#0000002c) transparent;
+}
+
