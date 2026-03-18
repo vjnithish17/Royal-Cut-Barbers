@@ -66,6 +66,7 @@
 }
 
 .l-box {
+
     /* border: 2px solid #ff6600; */
     /* height: 100vh; */
     width: 100%;
@@ -106,20 +107,32 @@
 .l-box p {
     color: gray;
 }
-
+.l-box button{
+    padding: 19px 0;
+    background: sandybrown;
+    font-size: 1.1rem;
+    border: none;
+}
 .r-box {
     /* border: 2px solid rebeccapurple; */
     height: 71vh;
     width: 100%;
     position: sticky;
     top: 0%;
+    overflow: hidden;
 }
 
 .r-box img {
     height: 100%;
     width: 100%;
     position: relative;
+    transform: scale(1);
+    transition: 3s;
 }
+.r-box:hover img{
+    transform: scale(1.4);
+}
+
 
 .con {
     /* border: 2px solid red; */
