@@ -12,7 +12,7 @@
 }
 
 .container {
-    /* border: 2px solid hotpink; */
+    border: 2px solid hotpink;
 }
 
 .container .con-head {
@@ -28,7 +28,7 @@
 }
 
 .container .con-body {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
