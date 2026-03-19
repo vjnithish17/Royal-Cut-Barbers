@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
 :root {
-    --font-head: "Montserrat", sans-serif;
-    --font-main: "Cinzel", serif;
+    
+    --font-p: "Cinzel", serif;
+    --font-heading: "Metal Mania", system-ui;
+    --font-mainhead:"Eagle Lake", serif;
+   
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"Cinzel", serif ;
 }
 
 .container {
-    /* border: 2px solid hotpink; */
+    border:0px solid ;
 }
 
 .container .con-head {
@@ -58,10 +61,17 @@
      background: #e4e4977c;
      /* background: #005c80a4; */
 }
-
-/* .h1 {
-    background: #12121298;
-} */
+ .heads1{
+    font-size: 2.4rem;
+    
+}
+.heads2{
+     background: #F5F5DC;
+}
+.headsbg{
+    align-items: center;
+        background: #e4e49773;
+}
 
 .logo {
     /* border: 2px solid green; */
@@ -72,13 +82,12 @@
 
 .logo img {
     /* border: 2px solid; */
-    height: 100%;
-    width: 100%;
+    height: 6rem;
+    width: 16rem;
     /* padding: 1PX 10PX; */
     /* object-fit: cover; */
     background-size: cover;
-    transform: scale(1);
-      background-color: #1B1E27;
+    /* transform: scale(1); */
     
 }
 
@@ -172,7 +181,7 @@ a:hover:after {
 
 .h-content {
     /* border: 2px solid red; */
-    margin-left: -30rem;
+    margin-left: -25rem;
     cursor: default;
     animation: right-move 2s forwards;
 }
@@ -189,9 +198,9 @@ a:hover:after {
 }
 
 .h-content h2 {
-    font-family: var(---FONT-MAIN);
+    font-family: var(--font-mainhead);
     font-weight: 600;
-    font-size: 55px;
+    font-size: 50px;
     background: linear-gradient(to bottom right, #ffffffbe, #ffa600ef, #ffa600fb, #ffffffbe);
     color: transparent;
     background-clip: text;
@@ -213,21 +222,25 @@ a:hover:after {
     background: linear-gradient(#fff8d3, #fdd384);
     color: transparent;
     background-clip: text;
-    font-family: var(--font-head);
+
+}
+.end .fa{
+    font-size: 30px;
 }
 
-.h-content .main-btn {
-    margin: 30px 0;
+ .main-btn {
+    margin: 0px -18px;
     font-size: 20px;
-    /* padding: 10px 10px; */
+    /* padding: 20px 30px; */
     font-family: var(--font-head);
     font-weight: 300;
-    border: none;
-    color: #eee2e2;
-
-    /* background-color: #3d393900; */
+    text-decoration: none;
+    color: #2fccfc;
 }
-
+.h-content .main-btn:hover{
+    color: rgb(183, 112, 250);
+    text-decoration: underline;
+}
 /* page2 */
 
 .container .h2 {
@@ -237,7 +250,7 @@ a:hover:after {
 }
 
 .h2 .t1 {
-    color: #1a1a1a;
+    color: #1a1a1a; 
     margin-top: 20px;
     font-size: 30px;
 }
@@ -311,7 +324,7 @@ a:hover:after {
 }
 
 .head-clr {
-    font-family: var(---FONT-MAIN);
+    font-family: var(--font-mainhead);
     color: #FFA500;
 }
 
@@ -378,9 +391,8 @@ a:hover:after {
 }
 
 .right-contend p {
-    margin-top: 25px;
-    font-size: 17px;
-    font-family: var(--font-head);
+    margin-top: 15px;
+    font-size: 15x;
     color: gray;
     text-align: justify;
 }
@@ -449,24 +461,6 @@ a:hover:after {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* page4 */
 .con-body {
     /* border: 2px solid red; */
@@ -525,8 +519,16 @@ a:hover:after {
     height: 100%;
 }
 
+/* shop */
+.container .shop{
+   justify-content: space-evenly;
+    background: #e4e49700;
 
-
+}
+ .shop1{
+    margin-left: 0;
+ }
+ 
 
 
 
@@ -685,6 +687,23 @@ a:hover:after {
         gap: 1px;
         margin: 0;
     }
-
+  /* footer */
+      .foot-con1{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+      }
+      .foot-con2{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+      }
+      .foot-con3{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+      }
 
 }

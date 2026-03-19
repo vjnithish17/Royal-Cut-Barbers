@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Metal+Mania&display=swap');
-:root{
-    -font-heading: "Metal Mania", system-ui;
-    -font-paragraph:"Eagle Lake", serif;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
+:root {
+    --font-p: "Cinzel", serif;
+    --font-heading: "Metal Mania", system-ui;
+    --font-mainhead:"Eagle Lake", serif;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+      font-family:"Cinzel", serif ;
 }
 
 .s1 {
@@ -79,15 +82,25 @@
     justify-content: center;
     padding: 40px;
     gap: 40px;
-    background: black;
+    /* background: black; */
 }
+
+.t-body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* flex-direction: row-reverse; */
+    background-color: black;
+    gap: 40px;
+}
+
 
 .l-box {
 
     /* border: 2px solid #ff6600; */
     /* height: 100vh; */
     width: 100%;
-    background-color: black;
+    background-color:#F5F5DC;
     /* margin-top: 85px; */
     display: flex;
     flex-direction: column;
@@ -95,22 +108,22 @@
 
 .line1 {
     display: flex;
-    gap: 35px;
-
+    gap: 25px;
+    justify-content: space-evenly;
     align-content: center;
     margin-top: 20px;
 }
 
 .l-box h1 {
-    font-family:  "Eagle Lake", serif;
+    font-family:var(--font-mainhead);
     font-size: 5rem;
-    color: #fff;
+    color: #0a0a0a;
 }
 
 .line1 h2 {
-
+    font-family: var(--font-p);
     font-size: 2rem;
-    color: #fff;
+    color: #141212;
 }
 
 .line1 span {
@@ -124,7 +137,7 @@
 }
 
 .l-box p {
-     font-family: "Racing Sans One", sans-serif;
+     /* font-family: "Racing Sans One", sans-serif; */
     color: gray;
 }
 .l-box button{
@@ -177,7 +190,8 @@
     /* margin: 10px 20px; */
     top: 30%;
     left: 30%;
-     font-family: "Racing Sans One", sans-serif;
+    font-family: var(--font-p);
+    
 }
 
 .r-box h1 {
@@ -186,14 +200,6 @@
     color: #fff;
     top: 40%;
     left: 30%;
-     font-family:  "Eagle Lake", serif;
-}
-.t-body {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    /* flex-direction: row-reverse; */
-    background-color: black;
-    gap: 40px;
+     font-family:var(--font-mainhead);
 }
 
