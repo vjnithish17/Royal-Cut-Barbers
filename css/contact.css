@@ -27,3 +27,44 @@
     pointer-events: none;
     background: linear-gradient(to right,#00000034) transparent;
 }
+.a-contain{
+    background: #F5F5DC;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.a-content{
+    /* border: 2px solid red; */
+    height: 70vh;
+    width: 80vh;
+    display: grid;
+    place-items: center;
+}
+.a-content1{
+    /* border: 2px solid red; */
+    height: 71vh;
+    width: 94vh;
+    object-fit: cover;
+}
+.a-content h1{
+   font-family: var(--font-mainhead);
+}
+.a-content form{
+    margin: 10px 40px;
+}
+.a-content form input{
+    margin: 10px 0;
+    padding: 7px 120px 7px 4px;
+}
+.a-content form textarea{
+      margin: 10px 0;
+    padding: 7px 120px 7px 4px;
+}
+.a-content form .sub{
+    padding: 7px 130px 7px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    color: white;
+}
