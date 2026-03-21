@@ -135,7 +135,7 @@
     position: relative;
     bottom: 0;
     padding: 10px;
-    background-color: #17cfe710;
+    background-color: #4a696d11;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
@@ -149,10 +149,6 @@
     color: black;
     font-family: "Eagle Lake", serif;
     text-decoration: none;
-}
-
-.bottom-box h3 a:visited {
-    color: blueviolet;
 }
 
 .bottom-box h3 a:hover {
@@ -188,7 +184,7 @@
     border-radius: 15px;
     font-size: 19px;
     font-weight: 200;
-    color: rgb(17, 1, 90);
+    color: rgba(17, 1, 90, 0.623);
     background-color: #17cfe702;
     font-family: var(--font-heading);
     /* font-style: italic; */
@@ -235,7 +231,11 @@
 .contain {
     /* border: 2px solid yellow; */
     padding: 20px;
-    background-color: #220b3888;
+    /* background-color: #710ad188; */
+    background-image: url(https://www.constitutionbarberhartford.com/wp-content/uploads/2025/05/Looking-for-the-best-barbershop-in-Hartford-About-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .foot-main {
@@ -243,14 +243,14 @@
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
-    /* justify-content:center; */
+    justify-content:center;
 }
 
 .foot-con1 {
     cursor: default;
-    /* border-right: 2px solid #7e8000; */
+    /* border: 2px solid #7e8000; */
     /* height: 50vh; */
-    width: auto;
+    /* width: auto; */
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -260,7 +260,7 @@
 
 .foot-con2 {
     cursor: default;
-    /* border-right: 2px solid #7e8000; */
+    /* border: 2px solid #7e8000; */
     /* height: 50vh; */
     width: auto;
     display: flex;
@@ -296,7 +296,7 @@
     /* border: 2px solid; */
     margin: 1px 40px;
     color: antiquewhite;
-    font-size: 14 .5px;
+    font-size: 15px;
 }
 
 .foot-con1 a {
@@ -314,7 +314,7 @@
 }
 
 .foot-con1 span {
-
+   padding: 10px;
     color: sandybrown;
 }
 
@@ -323,7 +323,7 @@
     /* border: 2px solid; */
     display: flex;
     justify-content: start;
-    gap: 20px;
+    gap: 10px;
     margin: 20px 40px;
 }
 
@@ -337,30 +337,37 @@
     place-items: center;
     background-color: #ffffff;
 }
+.emoji .b1:hover{
+    background-color:yellow;
+}
 
 .emoji .b1 i {
     cursor: default;
     font-size: 25px;
 }
 
-.emoji .b1 #green{
+.emoji .b1 #green {
     color: green;
 }
-.emoji .b1 #blue{
-    color:#0077ff;
+
+.emoji .b1 #blue {
+    color: #0077ff;
 }
-.emoji .b1 #darkblue{
-    color:darkblue;
+
+.emoji .b1 #darkblue {
+    color: darkblue;
 }
-.emoji .b1 #red{
+
+.emoji .b1 #red {
     color: red;
 }
-.emoji .b1 #liteblue{
-    color: lightskyblue;
+
+.emoji .b1 #liteblue {
+    color: rgb(4, 157, 252);
 }
 
 .foot-con2 h1 {
-     background:conic-gradient( #ffffffbe 10%  , #ffa600ef 30% 50%, #ffa600fb 50% 70%, #ffffffbe 80%,#ffa600fb 100%);
+    background: linear-gradient(to bottom right, #ffffffbe, #ffa600ef, #ffa600fb, #ffffffbe);
     color: transparent;
     background-clip: text;
     font-family: var(--font-mainhead);
@@ -369,37 +376,38 @@
 }
 
 .foot-con2 .left h2 {
-    
+
     cursor: default;
     margin-top: 30px;
     font-size: 1.3rem;
 }
-
+.foot-con2 .right{
+    margin-right: 30px;
+}
 .foot-con2 .right h3 {
     cursor: default;
-    margin-top: 55px;
+    margin-top: 65px;
     font-size: 1.3rem;
 }
 
 .foot-con2 .left p {
-    color: #25231f;
+    color: #fffdfa;
     margin-top: 10px;
     cursor: default;
 }
 
 .foot-con2 .right p {
-  color: #25231f;
+    color: #fff7e6;
     margin-top: 10px;
     cursor: default;
 }
 
 .clr {
-
-    color: sandybrown;
+    color:rgb(241, 145, 60);
 }
 
 .foot-con3 h2 {
-background:conic-gradient( #ffffffbe 10%  , #ffa600ef 30% 50%, #ffa600fb 50% 70%, #ffffffbe 80%,#ffa600fb 100%);
+    background: linear-gradient(to bottom right, #ffffffbe, #ffa600ef, #ffa600fb, #ffffffbe);
     color: transparent;
     background-clip: text;
     font-family: var(--font-mainhead);
@@ -409,7 +417,7 @@ background:conic-gradient( #ffffffbe 10%  , #ffa600ef 30% 50%, #ffa600fb 50% 70%
 }
 
 .foot-con3 p {
-   color: #faebd7c5;
+    color: #fff7ed;
     margin: 20px 20px;
     cursor: default;
 }
@@ -417,9 +425,10 @@ background:conic-gradient( #ffffffbe 10%  , #ffa600ef 30% 50%, #ffa600fb 50% 70%
 .foot-con3 input {
     margin-left: 20px;
     height: 50px;
-    width: 360px;
+    width: 310px;
+    padding: 0 20px;
     border-radius: 10px;
-    background: #c5bebed2;
+    background: #ffffff;
     border: none;
     border-bottom: 2px solid #ce9c6b;
 
@@ -429,9 +438,9 @@ background:conic-gradient( #ffffffbe 10%  , #ffa600ef 30% 50%, #ffa600fb 50% 70%
     margin-left: 20px;
     margin-top: 10px;
     height: 50px;
-    width: 360px;
+    width: 310px;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     border: none;
     background-color: #420080a2;
     border-radius: 10px;
@@ -442,5 +451,3 @@ background:conic-gradient( #ffffffbe 10%  , #ffa600ef 30% 50%, #ffa600fb 50% 70%
     background-color: #a70404;
     cursor: pointer;
 }
-
-
