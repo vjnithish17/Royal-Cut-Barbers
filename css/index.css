@@ -569,11 +569,11 @@ a:hover:after {
     border-radius: 50%;
 }
 
-.con-protect .group .brand img{
+.con-protect .group .brand img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    
+
 }
 
 .group {
@@ -694,23 +694,25 @@ a:hover:after {
     color: whitesmoke;
 }
 
-.dis-con button  {
+.dis-con button {
     margin-top: 10px;
     padding: 10px;
     background: none;
     /* background-color: #1b1e272f; */
     /* border: 1px solid #cbecf7; */
-     border: none;
+    border: none;
     font-size: 20px;
     color: #D4af37;
 }
-.dis-con button:hover{
+
+.dis-con button:hover {
     background-color: #000000;
-   
+
 }
-.dis-con button a{
+
+.dis-con button a {
     text-decoration: none;
-     color: #D4af37;
+    color: #D4af37;
 }
 
 
@@ -755,6 +757,9 @@ a:hover:after {
 
 
 
+.a-content1 iframe {
+    display: block;
+}
 
 .fa-bars,
 #bar {
@@ -794,12 +799,13 @@ a:hover:after {
         position: absolute;
         background-color: #3d3939;
         top: 105%;
-        padding: 1em 2em;
+        left: -200px;
+        /* padding: 1em 2em; */
         z-index: 1;
-        opacity: 0;
+        /* opacity: 0; */
         width: 190px;
         transform: translateX(-1%);
-        transition: 2s;
+        transition: 1s linear;
     }
 
     nav ul {
@@ -809,14 +815,25 @@ a:hover:after {
     }
 
     #bar:checked~nav {
-        opacity: 1;
+        left: 10px;
+    }
+
+    .cover {
+        height: 62vh;
+        padding: 40px;
+    }
+
+    .h-content {
+        margin: 0;
     }
 
     .h-content h4 {
+       margin-top: 77px;
         font-size: 19px;
     }
 
     .h-content p {
+        margin: 0;
         font-size: 13px;
     }
 
@@ -826,13 +843,13 @@ a:hover:after {
     }
 
     .h-content .main-btn {
-        padding: 5px 5px;
+        /* padding: 5px 0px; */
         font-size: 10px;
     }
 
     /* page2 */
     .h2 .t1 {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .right-contend {
@@ -894,31 +911,48 @@ a:hover:after {
         width: 100%;
         margin-top: 30px;
     }
-    .foot-con3 input{
+
+    .foot-con3 input {
         width: 200px;
     }
-    .foot-con3 button{
+
+    .foot-con3 button {
         width: 200px;
     }
-     /* contact */
-     .a-content form{
+
+    /* contact */
+    .a-content form {
         margin: 0;
-     }
-     .a-content1 iframe{
+    }
+
+    .a-content1 iframe {
         display: none;
-     }
-     /* discount */
-     .dis-con{
+    }
+
+    /* discount */
+    .dis-con {
         flex: 0 0 40px;
-     }
-     /* services */
-     .f-body,.s-body{
+    }
+
+    /* services */
+    .f-body,
+    .s-body,
+    .t-body {
         display: flex;
         flex-wrap: wrap;
-        padding: 0;
-     }
-     /* every */
-     .box1,.box2{
-        flex:  0 0 380px;
-     }
+        padding: 5px;
+    }
+
+    /* every */
+    .box1,
+    .box2 {
+        flex: 0 0 380px;
+    }
+
+
+
+
+    .content h1 {
+        font-size: 5rem;
+    }
 }
