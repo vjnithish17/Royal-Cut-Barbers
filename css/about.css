@@ -1,21 +1,104 @@
-*{
+* {
     margin: 0;
     padding: 0;
-     box-sizing: border-box;
-      font-family:"Cinzel", serif ;
-   
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+
 }
-.a1{
-     background: url(/project-img/br-aboutus.jpg);
+
+.a1 {
+    background: url(/project-img/br-aboutus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-     position: relative;
+    position: relative;
 }
-.a1::after{
+
+.a1::after {
     content: "";
     position: absolute;
     inset: 0;
     pointer-events: none;
-    background: linear-gradient(to right,#0000002c) transparent;
+    background: linear-gradient(to right, #0000002c) transparent;
 }
 
+.head {
+    text-align: center;
+    padding: 20px;
+}
+
+.head p {
+    margin-top: 20px;
+}
+
+.book-body {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 40px;
+}
+
+.book-body .book {
+    /* border: 2px solid; */
+    height: 400px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+}
+.book .design{
+    position: absolute;
+    /* border: 2px solid yellow; */
+    height: 160px;
+    width: 80px;
+    right: -90px;
+    padding: 14px;
+    z-index: 33;
+     display: grid;
+    gap: 6px;
+    transition: 0.5s ease;
+}
+.book:hover .design{
+    right: 0;
+}
+.book .design .d1{
+    /* border: 2px solid red; */
+    height: 50px;
+    background-color: #BF8743;
+    display: grid;
+    place-items: center;
+}
+.book .design .d1 i{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+ .book .top-book{
+    position: absolute;
+    top: 0;
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 100%;
+}
+.book .top-book img{
+    height: 100%;
+    width: 100%;
+}
+
+.book .bot-book{
+    position: absolute;
+    bottom: 0;
+    /* border: 2px solid; */
+    height: 80px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #333333;
+}
+
+.book .bot-book h2 {
+    color: aliceblue;
+}
+.book .bot-book h3{
+    color:#BF8743;
+}

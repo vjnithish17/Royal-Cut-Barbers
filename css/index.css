@@ -273,7 +273,7 @@ a:hover:after {
     /* border: 2px solid; */
     position: absolute;
     width: 90%;
-    top: 110px;
+    top: 90px;
     left: 50px;
 }
 
@@ -653,7 +653,7 @@ a:hover:after {
 
 .discount {
     /* border: 2px solid; */
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     display: flex;
     padding: 50px;
@@ -694,13 +694,23 @@ a:hover:after {
     color: whitesmoke;
 }
 
-.dis-con button {
+.dis-con button  {
     margin-top: 10px;
-    padding: 15px;
-    background-color: #1b1e272f;
-    border: 2px solid #cbecf7;
+    padding: 10px;
+    background: none;
+    /* background-color: #1b1e272f; */
+    /* border: 1px solid #cbecf7; */
+     border: none;
     font-size: 20px;
     color: #D4af37;
+}
+.dis-con button:hover{
+    background-color: #000000;
+   
+}
+.dis-con button a{
+    text-decoration: none;
+     color: #D4af37;
 }
 
 
@@ -826,7 +836,7 @@ a:hover:after {
     }
 
     .right-contend {
-        border: 2px solid #00ff37;
+        /* border: 2px solid #00ff37; */
         /* height: auto; */
         display: flex;
         background: #1B1E27;
@@ -856,7 +866,7 @@ a:hover:after {
 
     .left-box,
     .right-box {
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         flex: 0 0 489px;
         gap: 1px;
         margin: 0;
@@ -880,7 +890,35 @@ a:hover:after {
     .foot-con3 {
         display: flex;
         flex-wrap: wrap;
-        height: auto;
+        height: 100%;
+        width: 100%;
+        margin-top: 30px;
     }
-
+    .foot-con3 input{
+        width: 200px;
+    }
+    .foot-con3 button{
+        width: 200px;
+    }
+     /* contact */
+     .a-content form{
+        margin: 0;
+     }
+     .a-content1 iframe{
+        display: none;
+     }
+     /* discount */
+     .dis-con{
+        flex: 0 0 40px;
+     }
+     /* services */
+     .f-body,.s-body{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+     }
+     /* every */
+     .box1,.box2{
+        flex:  0 0 380px;
+     }
 }

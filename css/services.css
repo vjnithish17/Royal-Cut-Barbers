@@ -108,7 +108,6 @@
 
 .line1 {
     display: flex;
-    gap: 25px;
     justify-content: space-between;
     align-content: center;
     margin-top: 20px;
@@ -145,6 +144,17 @@
     background: sandybrown;
     font-size: 1.1rem;
     border: none;
+}
+.l-box button:hover{
+    /* background: linear-rgradient(to right,gold,orange,red); */
+    background: repeating-linear-gradient(to right,gold,orange,red);
+}
+.l-box a:hover {
+    color: rgb(255, 255, 255);
+}
+.l-box button a{
+    text-decoration: none;
+    color: #0a0a0a;
 }
 .r-box {
     /* border: 2px solid rebeccapurple; */
