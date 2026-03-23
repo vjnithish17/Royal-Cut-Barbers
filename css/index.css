@@ -254,7 +254,7 @@ a:hover:after {
     text-decoration: underline;
 }
 
-/* page2 */
+/* ABout 1 */
 
 .container .h2 {
     display: flex;
@@ -347,9 +347,10 @@ a:hover:after {
 .right-box {
     /* border: 2px solid yellow; */
     flex: 0 0 600px;
-    height: 90vh;
-    margin-top: 30px;
-    /* display: flex; */
+    /* height: 90vh; */
+    margin-top: 10px;
+    padding: 40px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -361,6 +362,34 @@ a:hover:after {
     /* flex: 0 0 400px; */
     display: flex;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-contend .about {
+    position: absolute;
+    top: 40px;
+    height: 350px;
+    width: 250px;
+    background: #edc95131;
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000%/99.5% 99.5%;
+    /* border: 2px solid rgba(255, 0, 0, 0.582); */
+    transform: scale(0);
+    opacity: 0;
+    transition: 1s;
+}
+
+.left-contend:hover .about {
+    transform: scale(6.1);
+    opacity: 1;
+}
+
+.left-contend .about1 {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    border: 2px solid red;
 }
 
 .left-contend img {
@@ -421,7 +450,7 @@ a:hover:after {
 
 
 
-/* page3 */
+/* About2 */
 .c3 {
     padding: 50px 40px;
     gap: 10px;
@@ -475,6 +504,10 @@ a:hover:after {
     top: 0;
     right: 0;
 }
+
+
+
+
 
 
 /* abut3 */
@@ -542,13 +575,60 @@ a:hover:after {
 
 .cardcon button {
     font-size: 14px;
-    padding: 9px 15px;
+    padding: 3px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    color: #002753;
+    font-weight: 600;
+    position: relative;
+    z-index: 1000;
+}
+
+.cardcon button:hover {
+    text-decoration: underline;
+}
+
+.cardcon button::before {
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 0px;
+    left: 0;
+    background-color: #d4af3713;
+    z-index: -9;
+    transition: 0.3s linear;
+    opacity: 0;
+    transition-delay: 0.2s;
+}
+
+.cardcon button:hover::before {
+    width: 100%;
+    opacity: 1;
+}
+
+.cardcon button::after {
+    content: "→";
 }
 
 .cardcon button i {
     padding: 8px;
     font-size: 15px;
+    transform: rotate(-85deg);
+    /* transition: 0.1s; */
 }
+
+.cardcon button:hover i {
+    transform: rotate(0);
+}
+
+
+
+
+
+
+
 
 /* brand */
 .brand-body {
@@ -597,15 +677,6 @@ a:hover:after {
 .group1 {
     margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -752,7 +823,7 @@ a:hover:after {
 
 
 
-
+/* Media query */
 
 
 
@@ -828,7 +899,7 @@ a:hover:after {
     }
 
     .h-content h4 {
-       margin-top: 77px;
+        margin-top: 77px;
         font-size: 19px;
     }
 

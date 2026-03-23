@@ -207,7 +207,7 @@
     left: -140%;
     /* z-index: 60;  */
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
-    /* transform: translateX(-130%,0,0); */
+    transform: translateX(-130%,0,0);
     transition: 1s;
     z-index: -1;
 }
