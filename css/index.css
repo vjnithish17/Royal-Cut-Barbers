@@ -41,7 +41,7 @@
 }
 
 .c1 {
-    background: url(/project-img/first-img.png);
+    background: url(../project-img/first-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -745,7 +745,7 @@ a:hover:after {
     width: 100%;
     display: flex;
     padding: 50px;
-    background-image: url(/project-img/dis-count.webp);
+    background-image: url(../project-img/dis-count.webp);
     background-size: cover;
     background-attachment: fixed;
     position: relative;

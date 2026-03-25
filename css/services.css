@@ -13,7 +13,7 @@
 }
 
 .s1 {
-    background: url(/project-img/bgmain.avif);
+    background: url(../project-img/bgmain.avif);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

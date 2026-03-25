@@ -15,7 +15,7 @@
 }
 
 .c1 {
-    background: url(/project-img/br-contact.jpg);
+    background: url(../project-img/br-contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

@@ -7,7 +7,7 @@
 }
 
 .a1 {
-    background: url(/project-img/br-aboutus.jpg);
+    background: url(../project-img/br-aboutus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
