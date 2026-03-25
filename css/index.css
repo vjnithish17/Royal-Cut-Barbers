@@ -176,7 +176,24 @@ a:hover:after {
 .main-btn {
     font-family: var(--font-head);
     font-size: 15px;
-    padding: 0.4rem 1.1rem;
+    padding: 0rem 1.1rem;
+
+}
+.nav-btn{
+    padding: 0.5rem 0.5rem;
+    background-color: #0000001a;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 217, 0, 0.507);
+}
+.nav-btn:hover{
+    background-color: rgba(252, 111, 10, 0.925);
+}
+.nav-btn a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    
+
 }
 
 .cover {
@@ -596,11 +613,11 @@ a:hover:after {
     height: 80%;
     width: 0px;
     left: 0;
-    background-color: #d4af3713;
+    background-color: #d4af3771;
     z-index: -9;
     transition: 0.3s linear;
     opacity: 0;
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 
 .cardcon button:hover::before {
