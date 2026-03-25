@@ -179,20 +179,23 @@ a:hover:after {
     padding: 0rem 1.1rem;
 
 }
-.nav-btn{
+
+.nav-btn {
     padding: 0.5rem 0.5rem;
     background-color: #0000001a;
     border-radius: 10px;
     border: 1px solid rgba(255, 217, 0, 0.507);
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
     background-color: rgba(252, 111, 10, 0.925);
 }
-.nav-btn a{
+
+.nav-btn a {
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 17px;
-    
+
 
 }
 
@@ -876,12 +879,6 @@ a:hover:after {
         right: 0;
     }
 
-    .con-head {
-        position: relative;
-        display: flex;
-        background: #3d3939;
-
-    }
 
     nav {
         position: absolute;
@@ -905,7 +902,9 @@ a:hover:after {
     #bar:checked~nav {
         left: 10px;
     }
-
+   .container .con-head{
+    position: absolute;
+   }
     .cover {
         height: 62vh;
         padding: 40px;
@@ -965,8 +964,8 @@ a:hover:after {
 
     .main {
         /* border: 2px solid rgb(60, 0, 128); */
-        flex: 0 0 389px;
-        margin: 20px 40px;
+        flex: 0 0 343px;
+        margin: 24px 0px;
     }
 
     .left-box,
@@ -976,6 +975,21 @@ a:hover:after {
         gap: 1px;
         margin: 0;
     }
+     .left-contend {
+    /* border: 2px solid #00ff37; */
+    /* height: 85vh; */
+    /* width: 100%; */
+    flex: 0 0 329px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+
+
+
+
+
 
     /* footer */
     .foot-con1 {
@@ -1037,10 +1051,8 @@ a:hover:after {
         flex: 0 0 380px;
     }
 
-
-
-
     .content h1 {
         font-size: 5rem;
     }
+}
 }
