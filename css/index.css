@@ -15,7 +15,8 @@
     font-family: "Cinzel", serif;
     /* outline: 2px solid red; */
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -1027,13 +1028,20 @@ a:hover:after {
         height: 100%;
     }
 
+    .cardimg {
+        /* border: 2px solid green; */
+        /* width: 50%; */
+        padding: 53px;
+        height: 100%;
+    }
 
 
-.l-box h1 {
-    font-family: var(--font-mainhead);
-    font-size: 3rem;
-    color: #0a0a0a;
-}
+
+    .l-box h1 {
+        font-family: var(--font-mainhead);
+        font-size: 3rem;
+        color: #0a0a0a;
+    }
 
 
 
@@ -1082,24 +1090,26 @@ a:hover:after {
         margin: 0;
         padding: 0;
     }
-    .a-content {
-    /* border: 2px solid red; */
-    /* height: 70vh; */
-    width: auto;
-    display: grid;
-    place-items: center;
-}
 
-.a-content form input {
-    margin: 10px 0;
-    border: none;
-    padding: 7px 86px 7px 4px;
-}
-.a-content form textarea {
-    margin: 10px 0;
-    padding: 7px 95px 7px 4px;
-    border: none;
-}
+    .a-content {
+        /* border: 2px solid red; */
+        /* height: 70vh; */
+        width: auto;
+        display: grid;
+        place-items: center;
+    }
+
+    .a-content form input {
+        margin: 10px 0;
+        border: none;
+        padding: 7px 86px 7px 4px;
+    }
+
+    .a-content form textarea {
+        margin: 10px 0;
+        padding: 7px 95px 7px 4px;
+        border: none;
+    }
 
     .a-content1 iframe {
         display: none;
@@ -1109,7 +1119,8 @@ a:hover:after {
     .dis-con {
         flex: 0 0 40px;
     }
-    .a-content form .sub{
+
+    .a-content form .sub {
         padding: 7px 105px 7px;
     }
 
@@ -1134,23 +1145,23 @@ a:hover:after {
 
 
 
-.h2 .flip {
-    /* border: 2px solid; */
-    position: absolute;
-    width: 70%;
-    top: 90px;
-    left: 50px;
-}
+    .h2 .flip {
+        /* border: 2px solid; */
+        position: absolute;
+        width: 70%;
+        top: 90px;
+        left: 50px;
+    }
 
 
-.container .con-body {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
+    .container .con-body {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
 
 
 
