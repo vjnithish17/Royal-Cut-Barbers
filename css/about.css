@@ -5,6 +5,9 @@
     font-family: "Cinzel", serif;
 
 }
+body{
+    overflow-x: hidden;
+}
 
 .a1 {
     background: url(../project-img/br-aboutus.jpg);

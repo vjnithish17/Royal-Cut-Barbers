@@ -11,6 +11,9 @@
     box-sizing: border-box;
       font-family:"Cinzel", serif ;
 }
+body{
+    overflow-x: hidden;
+}
 
 .s1 {
     background: url(../project-img/bgmain.avif);
