@@ -379,7 +379,7 @@ a:hover:after {
 .left-contend {
     /* border: 2px solid #00ff37; */
     height: 85vh;
-    /* flex: 0 0 400px; */
+    flex: 0 0 200px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -908,7 +908,7 @@ a:hover:after {
     }
 
     .cover {
-        height: 62vh;
+        height: auto;
         padding: 40px;
     }
 
@@ -964,10 +964,14 @@ a:hover:after {
     }
 
 
+
     .main {
         /* border: 2px solid rgb(60, 0, 128); */
-        flex: 0 0 375px;
-        height: 46vh;
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
         padding: 2vh;
         margin: 24px 0px;
     }
@@ -975,16 +979,14 @@ a:hover:after {
     .left-box,
     .right-box {
         /* border: 2px solid yellow; */
-        flex: 0 0 489px;
+        flex: 1;
         gap: 1px;
         margin: 0;
     }
 
     .left-contend {
         /* border: 2px solid #00ff37; */
-        /* height: 85vh; */
-        /* width: 100%; */
-        flex: 0 0 329px;
+        flex: 0 0 239px;
         display: flex;
         justify-content: center;
         position: relative;
@@ -996,12 +998,44 @@ a:hover:after {
     .box2 {
         /* border: 2px solid rebeccapurple; */
         /* height: 80vh; */
-        flex: 0 0 352px;
+        /* flex: 0 0 352px; */
         display: flex;
         flex-direction: column;
         gap: 20px;
         flex-wrap: wrap;
     }
+
+    .card1 {
+        /* border: 2px solid red; */
+        /* margin: 10px 10px; */
+        /* height: 35vh; */
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .cardcon {
+        /* border: 2px solid green; */
+        width: auto;
+        height: 100%;
+    }
+
+
+
+.l-box h1 {
+    font-family: var(--font-mainhead);
+    font-size: 3rem;
+    color: #0a0a0a;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1062,10 +1096,31 @@ a:hover:after {
     /* every */
     .box1,
     .box2 {
-        flex: 0 0 380px;
+        flex: 0 1 380px;
     }
 
     .content h1 {
         font-size: 5rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+    .box {
+        /* border: 2px solid rebeccapurple; */
+        height: 50vh;
+        flex: 0 0 278px;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
 }
