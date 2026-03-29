@@ -74,9 +74,9 @@ body {
     /* background: #005c80a4; */
 }
 
-.heads1 {
-    font-size: 2.4rem;
-
+/* contact */
+.a-content form .index{
+    background-color: #FEE9F9;
 }
 
 .heads2 {
@@ -269,6 +269,7 @@ a:hover:after {
 }
 
 .end .fa {
+    color: gold;
     font-size: 30px;
 }
 
@@ -278,12 +279,12 @@ a:hover:after {
     /* padding: 20px 30px; */
     font-family: var(--font-head);
     font-weight: 300;
+    margin-left: -20px;
     text-decoration: none;
-    color: #2fccfc;
+    color:white;
 }
-
-.h-content .main-btn:hover {
-    color: rgb(183, 112, 250);
+ .main-btn:hover {
+    color: gold;
     text-decoration: underline;
 }
 
@@ -664,9 +665,12 @@ a:hover:after {
 
 
 /* brand */
+.brand{
+    margin-top: 40px;
+}
 .brand-body {
     /* border: 2px solid; */
-    padding: 60px 20px;
+    padding: 20px 20px 60px 20px ;
 }
 
 .con-protect {

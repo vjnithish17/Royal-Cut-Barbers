@@ -38,9 +38,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 23px;
-    padding: 20px 10px;
-    background-color: rgba(255, 105, 180, 0.137);
+    gap: 20px;
+    padding: 0px 10px 54px;
+    background-color: #ffffff;
 }
 
 .main-box {
@@ -50,8 +50,8 @@ body{
     width: 280px;
     position: relative;
     float: left;
-    margin-top: 30px;
-    margin-left: 45px;
+    margin-top: 60px;
+    margin-left: 15px;
     /* border-radius: 5px; */
     overflow: hidden;
 
@@ -140,7 +140,7 @@ body{
     position: relative;
     bottom: 0;
     padding: 10px;
-    background-color: #ecdf225b;
+    background-color:rgba(190, 223, 236, 0.096);
     border-bottom-left-radius: 10px;
     /* border-bottom-right-radius: 20px; */
 
@@ -165,7 +165,7 @@ body{
     font-size: 17px;
     top: 27px;
     left: 6px;
-    font-weight: 0px;
+    font-weight: 100px;
     margin: 15px;
     /* font-family: var(---FONT-MAIN); */
     font-family: "Metal Mania", system-ui;
@@ -177,7 +177,7 @@ body{
     font-size: 20px;
     top: 35px;
     right: 10px;
-    color: rgba(214, 13, 13, 0.788);
+    color:orange;
     font-family: "Metal Mania", system-ui;
 
 }
@@ -188,8 +188,8 @@ body{
     padding: 8px 25px;
     border-radius: 15px;
     font-size: 19px;
-    font-weight: 200;
-    color: rgba(17, 1, 90, 0.623);
+    font-weight: 100;
+    color: black;
     background-color: #17cfe702;
     font-family: var(--font-heading);
     /* font-style: italic; */
@@ -198,6 +198,10 @@ body{
     overflow: hidden;
     z-index: 2;
     border: none;
+    transition-delay: 0.2s ;
+}
+.bottom-box button:hover{
+    color: white;
 }
 
 .bottom-box button::before {
@@ -217,8 +221,6 @@ body{
 
 .bottom-box button:hover::before {
     left: 0;
-
-
 }
 
 .bottom-box del {
@@ -343,7 +345,7 @@ body{
     background-color: #ffffff;
 }
 .emoji .b1:hover{
-    background-color:yellow;
+    opacity: 0;
 }
 
 .emoji .b1 i {
@@ -446,8 +448,8 @@ body{
     width: 310px;
     font-size: 20px;
     color: #ffffff;
-    border: none;
-    background-color: #420080a2;
+    /* border: none; */
+    background:rgba(0, 0, 0, 0.616);
     border-radius: 10px;
 }
 
