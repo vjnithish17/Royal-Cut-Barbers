@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.book1{
+    background: url(../project-img/br-appointment.jpg);
+    background-size: cover;
+}
+
+
 .appoinment{
     border: 2px solid red;
     display: flex;
@@ -99,4 +105,13 @@
 .out .first .t-1 .icon i{
     font-size: 25px;
     color: black;
+}
+
+.appoinment-content .app-mid{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    column-gap: 13px;
+    margin: 22px 0 36px;
 }
