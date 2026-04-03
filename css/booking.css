@@ -10,20 +10,18 @@
 
 
 .appoinment{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
+    justify-content: center;
     gap: 20px;
     padding: 30px;
+    background-image: url(../project-img/about.webp);
 }
-.appoinment-left{
-    border: 2px solid green;
-    height: 90vh;
-    width: 80%;
-}
+
 .appoinment-right{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100%;
-    width: 100%;
+    width: 70%;
     padding: 20px;
     display: grid;
     place-items: center;
@@ -33,36 +31,12 @@
      height: 100%;
     width: 90%;
 }
-.appoinment-right .appoinment-content .app-top,.app-mid,.app-center,.app-footer,.app-footer1,.app-footer2{
-    border: 2px solid blue;
+.appoinment-right .appoinment-content .app-top{
+    /* border: 2px solid blue; */
     height: 100%;
     width: 100%;
 }
-.appoinment-right .appoinment-content .app-mid{
-    border: 2px solid blueviolet;
-    height: 30vh;
-    width: 100%;
-}
-.appoinment-right .appoinment-content .app-center{
-    border: 2px solid red;
-    height: 20vh;
-    width: 100%;
-}
-.appoinment-right .appoinment-content .app-footer{
-    border: 2px solid green;
-    height: 35vh;
-    width: 100%;
-}
-.appoinment-right .appoinment-content .app-footer1{
-    border: 2px solid yellow;
-    height: 15vh;
-    width: 100%;
-}
-.appoinment-right .appoinment-content .app-footer2{
-    border: 2px solid red;
-    height: 15vh;
-    width: 100%;
-}
+
 .out{
     /* border: 2px solid; */
      gap: 10px;
@@ -76,6 +50,7 @@
     align-items: center;
     position: relative;
     height: 100%;
+     
 }
 .first input{
     position: absolute;
@@ -84,7 +59,8 @@
 .first input:checked+ .t-1{
     position: absolute;
     /* opacity: 1; */
-    background-color: rgb(255, 147, 6);
+    background:linear-gradient(orange,rgba(255, 217, 1, 0.877));
+     box-shadow: -1px 0px 6px 0px rgb(252, 235, 5);
 }
 .first input:checked+ .t-1 .icon i{
     color: orangered;
@@ -92,26 +68,74 @@
 .out .first .t-1{
     margin: 0;
     padding: 28px 30px 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border-radius: 20px;
     width: 100%;
     height: 100%;
     cursor: pointer;
-     background-color: blanchedalmond;
+     background-color: rgb(172, 162, 155);
      display: flex;
      flex-direction: column;
      align-items: flex-start ;
      grid-area: 9px;
+    
 }
 .out .first .t-1 .icon i{
     font-size: 25px;
     color: black;
 }
 
-.appoinment-content .app-mid{
-    border: 2px solid red;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6px;
-    column-gap: 13px;
-    margin: 22px 0 36px;
+.row{
+    /* border: 2px solid red; */
+   margin-top: 20px;
+   padding: 20px;
+   background-color: #2a2a3dbb;
+   border-radius: 10px;
+  box-shadow: inset -1px -1px 17px 0px white;
+}
+.left-msg-6{
+    /* border: 2px solid; */
+     display: flex;
+     height: 10vh;
+     align-items: center;
+     justify-content: space-between;
+}
+.right-msg-6{
+    /* border: 2px solid; */
+    display: flex;
+     height: 19vh;
+     align-items: center;
+    justify-content:space-between;
+}
+input{
+    padding: 10px;
+    background:none;
+    border: none;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+    color: white;
+}
+
+.book{
+    display: flex;
+    justify-content: center;
+}
+.book .btn{
+    margin-top: 10px;
+    padding: 5px;
+    width: 30vh;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    /* border: none; */
+}
+.app-top p{
+    color: gold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-shadow: 1px 4px 4px gold;
 }

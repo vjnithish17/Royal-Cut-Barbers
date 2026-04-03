@@ -345,7 +345,8 @@ body{
     background-color: #ffffff;
 }
 .emoji .b1:hover{
-    opacity: 0;
+    /* opacity: 0; */
+    transform: translatey(-12px) scale(1.4);
 }
 
 .emoji .b1 i {
