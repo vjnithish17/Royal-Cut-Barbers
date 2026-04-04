@@ -5,15 +5,15 @@
     --font-mainhead:"Eagle Lake", serif;
 }
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
       font-family:"Cinzel", serif ;
-}
-body{
+} */
+/* body{
     overflow-x: hidden;
-}
+} */
 
 .s1 {
     background: url(../project-img/bgmain.avif);
