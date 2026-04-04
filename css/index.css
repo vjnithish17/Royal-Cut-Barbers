@@ -381,7 +381,7 @@ a:hover:after {
 .left-box,
 .right-box {
     /* border: 2px solid yellow; */
-    flex: 0 0 600px;
+    flex: 0 0 auto;
     /* height: 90vh; */
     margin-top: 10px;
     padding: 40px;
@@ -444,7 +444,7 @@ a:hover:after {
 
 .main {
     /* border: 2px solid rgb(60, 0, 128); */
-    flex: 0 0 500px;
+    /* flex: 0 0 500px; */
     margin-left: 50px;
 
 }
@@ -924,20 +924,21 @@ a:hover:after {
     }
 
     .container .con-head {
-        position: absolute;
+        position: relative;
     }
 
     .cover {
         height: auto;
-        padding: 40px;
+        /* padding: 10px; */
     }
 
     .h-content {
         margin: 0;
+        padding: 7px;
     }
 
     .h-content h4 {
-        margin-top: 77px;
+        /* margin-top: 77px; */
         font-size: 19px;
     }
 
@@ -987,13 +988,14 @@ a:hover:after {
 
     .main {
         /* border: 2px solid rgb(60, 0, 128); */
-        flex: 0 0 240px;
-        display: flex;
+        /* flex: 0 0 239px; */
+        /* display: flex; */
         flex-wrap: wrap;
         height: auto;
         flex-direction: column;
         padding: 2vh;
         margin: 24px 0px;
+    }
     }
 
     .left-box,
@@ -1002,12 +1004,12 @@ a:hover:after {
         flex: 1;
         gap: 1px;
         margin: 0;
-        padding: 0;
+        padding: 1px;
     }
 
     .left-contend {
         /* border: 2px solid #00ff37; */
-        flex: 0 0 239px;
+        /* flex: 0 0 239px; */
         display: flex;
         justify-content: center;
         position: relative;
@@ -1189,4 +1191,3 @@ a:hover:after {
 
 
 
-}
