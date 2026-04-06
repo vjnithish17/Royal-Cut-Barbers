@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
 :root {
     
     --font-p: "Cinzel", serif;
     --font-heading: "Metal Mania", system-ui;
     --font-mainhead:"Eagle Lake", serif;
    
-}
+} */
 /* body{
     overflow-x: hidden;
 } */
-
+/* 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
       font-family:"Cinzel", serif ;
-}
+} */
 
-.c1 {
-    background: url(../project-img/br-contact.jpg);
+.contact1 {
+    background: url(../project-img/about.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fill;
     position: relative;
 }
 .c1::after{
@@ -31,7 +31,7 @@
     background: linear-gradient(to right,#00000034) transparent;
 }
 .a-contain{
-    background: #F5F5DC;
+    background: #8080802a;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -72,14 +72,14 @@
 }
 .a-content form .sub{
     padding: 7px 126px 7px;
-   /* background-color: rgb(238, 238, 238); */
-    border: none;
+   background-color: #80808000;
+    /* border: none; */
     color: black;
     font-size: 17px;
     font-weight: 700;
     border-radius: 10px;
     border: 0.3px dotted rgba(255, 217, 0, 0.5);
-    background-color:#F5F5DC;
+    /* background-color:#F5F5DC; */
     transition: 0.3s ease;
     cursor: pointer;
 }

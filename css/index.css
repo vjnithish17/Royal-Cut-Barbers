@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Teko:wght@300..700&display=swap');
 :root {
 
-    --font-p: "Cinzel", serif;
-    --font-heading: "Metal Mania", system-ui;
-    --font-mainhead: "Eagle Lake", serif;
+    --font-p: "Merriweather", serif;
+    --font-heading: "Merriweather", serif;
+    --font-mainhead: "Teko", sans-serif;
 
 }
 
@@ -44,7 +43,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow:hidden ;
+    overflow: hidden;
 }
 
 .c1 {
@@ -64,7 +63,8 @@
 
 .bg-f {
 
-    background: #f533c41c;
+    background:rgba(196, 185, 185, 0.199);
+    /* padding: 10px; */
     /* background:#e1edff; */
 
 }
@@ -76,7 +76,7 @@
 }
 
 /* contact */
-.a-content form .index{
+.a-content form .index {
     background-color: #FEE9F9;
 }
 
@@ -191,7 +191,7 @@ a:hover:after {
     padding: 0.5rem;
     border-radius: 10px;
     border: 1px solid rgba(255, 217, 0, 0.5);
-    background-color: #00000062;
+    background-color: #0000002a;
     transition: 0.3s ease;
 }
 
@@ -242,7 +242,6 @@ a:hover:after {
 }
 
 .h-content h2 {
-    font-family: var(--font-mainhead);
     font-weight: 600;
     font-size: 50px;
     background: linear-gradient(to bottom right, #ffffffbe, #ffa600ef, #ffa600fb, #ffffffbe);
@@ -251,7 +250,7 @@ a:hover:after {
 }
 
 .h-content h4 {
-    font-family: var(--font-head);
+    font-family: var(--font-mainhead);
     font-size: 31px;
     font-weight: 500;
     margin: 10px 0px;
@@ -259,10 +258,12 @@ a:hover:after {
 }
 
 .h-content p {
-    text-align: justify;
+    /* text-align: justify; */
+    
+    font-family: var(--font-mainhead);
     font-weight: 300;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 23px;
     background: linear-gradient(#fff8d3, #fdd384);
     color: transparent;
     background-clip: text;
@@ -282,9 +283,10 @@ a:hover:after {
     font-weight: 300;
     margin-left: -20px;
     text-decoration: none;
-    color:white;
+    color: white;
 }
- .main-btn:hover {
+
+.main-btn:hover {
     color: gold;
     text-decoration: underline;
 }
@@ -381,7 +383,7 @@ a:hover:after {
 .left-box,
 .right-box {
     /* border: 2px solid yellow; */
-    flex: 0 0 auto;
+    flex: 0 0 300px;
     /* height: 90vh; */
     margin-top: 10px;
     padding: 40px;
@@ -394,7 +396,9 @@ a:hover:after {
 .left-contend {
     /* border: 2px solid #00ff37; */
     height: 85vh;
-    flex: 0 0 auto;
+    flex: 0 0 450px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -437,15 +441,17 @@ a:hover:after {
     /* border: 2px solid #00ff37; */
     height: 85vh;
     display: flex;
-    /* justify-content: center; */
-    background: #1B1E27;
+    justify-content: center;
+    background:#80808000;
+    align-items: center;
     /* flex-direction: column; */
 }
 
 .main {
     /* border: 2px solid rgb(60, 0, 128); */
-    /* flex: 0 0 500px; */
-    margin-left: 50px;
+    flex: 0 0 500px;
+    height: 70vh;
+    /* margin-left: 50px; */
 
 }
 
@@ -453,35 +459,31 @@ a:hover:after {
     margin: 20px 0;
     font-size: 25px;
     font-weight: 600;
-    color: #eee2e2;
-    font-family: var(---font-head);
+    /* color: #eee2e2; */
+    font-family: var(--font-mainhead);
 }
 
 .right-contend h3 {
     /* position: absolute; */
-    background: linear-gradient(to bottom right, #ffffffbe, #ffa600ef, #ffa600fb, #ffffffbe);
+    background: linear-gradient(to bottom right, #ffa600ef, #ffa600fb, #ffffffbe);
     color: transparent;
     background-clip: text;
     font-weight: 600;
-    font-family: var(---FONT-MAIN);
+    font-family: var(--font-p);
     font-size: 45px;
 
 }
 
 .right-contend p {
-    margin-top: 15px;
+    margin-top: 11px;
     font-size: 15x;
     color: gray;
     text-align: justify;
 }
 
-
-
-
-
-
-
-
+.main a{
+    color: black;
+}
 
 
 
@@ -590,12 +592,13 @@ a:hover:after {
 }
 
 .cardimg {
-    /* border: 2px solid green; */
+    /* border: 1px dotted rgba(190, 209, 190, 0.603); */
     width: 50%;
     height: 100%;
     display: grid;
     place-items: center;
 }
+
 
 .cardcon {
     /* border: 2px solid green; */
@@ -605,7 +608,8 @@ a:hover:after {
 
 .cardcon p {
     padding: 10px 0;
-    font-size: 14px;
+    color: gray;
+    text-align: justify;
 }
 
 .cardcon button {
@@ -633,6 +637,7 @@ a:hover:after {
     left: 0;
     background-color: #d4af3771;
     z-index: -9;
+    border-radius: 50%;
     transition: 0.3s linear;
     opacity: 0;
     transition-delay: 0.1s;
@@ -666,12 +671,13 @@ a:hover:after {
 
 
 /* brand */
-.brand{
+.brand {
     margin-top: 40px;
 }
+
 .brand-body {
     /* border: 2px solid; */
-    padding: 20px 20px 60px 20px ;
+    padding: 20px 20px 60px 20px;
 }
 
 .con-protect {
@@ -988,7 +994,7 @@ a:hover:after {
 
     .main {
         /* border: 2px solid rgb(60, 0, 128); */
-        /* flex: 0 0 239px; */
+        flex: 0 0 350px;
         /* display: flex; */
         flex-wrap: wrap;
         height: auto;
@@ -996,7 +1002,7 @@ a:hover:after {
         padding: 2vh;
         margin: 24px 0px;
     }
-    }
+
 
     .left-box,
     .right-box {
@@ -1009,11 +1015,12 @@ a:hover:after {
 
     .left-contend {
         /* border: 2px solid #00ff37; */
-        /* flex: 0 0 239px; */
+        flex: 0 0 350px;
         display: flex;
         justify-content: center;
         position: relative;
         overflow: hidden;
+        height: 128vh;
     }
 
 
@@ -1174,10 +1181,24 @@ a:hover:after {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
     }
 
+
+    .top-show {
+       
+        height: 71vh;
+        width: 356px;
+    }
+
+    .c3 .box {
+        /* border: 2px solid rebeccapurple; */
+        height: 70vh;
+        flex: 0 0 318px;
+        position: relative;
+        overflow: hidden;
+    }
 
 
 
@@ -1189,5 +1210,10 @@ a:hover:after {
         overflow: hidden;
     }
 
+    .bg-f {
 
-
+        background: #f533c41c;
+        padding: 10px;
+        /* background:#e1edff; */
+    }
+}

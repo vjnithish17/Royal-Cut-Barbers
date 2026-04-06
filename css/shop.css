@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&family=Metal+Mania&display=swap');
 
 :root {
 
@@ -6,7 +6,7 @@
     --font-heading: "Metal Mania", system-ui;
     --font-mainhead: "Eagle Lake", serif;
 
-}
+} */
 
 * {
     margin: 0;
@@ -148,11 +148,11 @@
 
 .bottom-box h3 a {
     position: absolute;
-    font-size: 17px;
-    font-weight: 990px;
+    font-size: 20px;
+    
     left: 19px;
     color: black;
-    font-family: "Eagle Lake", serif;
+    font-family: var(--font-mainhead);
     text-decoration: none;
 }
 
@@ -162,13 +162,13 @@
 
 .bottom-box p {
     position: absolute;
-    font-size: 17px;
+    /* font-size: 17px; */
     top: 27px;
     left: 6px;
     font-weight: 100px;
     margin: 15px;
-    /* font-family: var(---FONT-MAIN); */
-    font-family: "Metal Mania", system-ui;
+    /* font-family: var(--font-p); */
+   
 }
 
 .bottom-box h4 {
@@ -177,8 +177,8 @@
     font-size: 20px;
     top: 35px;
     right: 10px;
-    color:orange;
-    font-family: "Metal Mania", system-ui;
+    color:rgb(255, 123, 0);
+    /* font-family: "Metal   Mania", system-ui; */
 
 }
 
@@ -191,8 +191,7 @@
     font-weight: 100;
     color: black;
     background-color: #17cfe702;
-    font-family: var(--font-heading);
-    /* font-style: italic; */
+ 
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -249,6 +248,7 @@
     cursor: default;
     /* border: 2px solid red; */
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content:center;
 }
@@ -273,7 +273,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .foot-con3 {
@@ -398,6 +398,8 @@
     font-size: 1.3rem;
 }
 
+
+
 .foot-con2 .left p {
     color: #fffdfa;
     margin-top: 10px;
@@ -411,6 +413,7 @@
 }
 
 .clr {
+    /* margin-top: 10px; */
     color:rgb(241, 145, 60);
 }
 
