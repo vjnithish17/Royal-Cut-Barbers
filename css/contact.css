@@ -62,13 +62,14 @@
 }
 .a-content form input{
     margin: 10px 0;
-   border: none;
+   /* border: none; */
+   /* background-color: gray   ; */
     padding: 7px 120px 7px 4px;
 }
 .a-content form textarea{
       margin: 10px 0;
     padding: 7px 120px 7px 4px;
-     border: none;
+     /* border: none; */
 }
 .a-content form .sub{
     padding: 7px 126px 7px;
@@ -92,8 +93,6 @@
     box-shadow: 0 5px 15px rgba(255, 165, 0, 0.4);
 
 }
-
-
 
 
 

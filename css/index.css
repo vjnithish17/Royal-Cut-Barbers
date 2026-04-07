@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Teko:wght@300..700&display=swap');
+
 :root {
 
     --font-p: "Merriweather", serif;
@@ -63,8 +64,7 @@
 
 .bg-f {
 
-    background:rgba(196, 185, 185, 0.199);
-    /* padding: 10px; */
+    background: rgba(196, 185, 185, 0.199);
     /* background:#e1edff; */
 
 }
@@ -259,7 +259,7 @@ a:hover:after {
 
 .h-content p {
     /* text-align: justify; */
-    
+
     font-family: var(--font-mainhead);
     font-weight: 300;
     margin: 10px 0;
@@ -442,7 +442,7 @@ a:hover:after {
     height: 85vh;
     display: flex;
     justify-content: center;
-    background:#80808000;
+    background: #80808000;
     align-items: center;
     /* flex-direction: column; */
 }
@@ -481,7 +481,7 @@ a:hover:after {
     text-align: justify;
 }
 
-.main a{
+.main a {
     color: black;
 }
 
@@ -671,13 +671,11 @@ a:hover:after {
 
 
 /* brand */
-.brand {
-    margin-top: 40px;
-}
+
 
 .brand-body {
     /* border: 2px solid; */
-    padding: 20px 20px 60px 20px;
+    padding: 20px;
 }
 
 .con-protect {
@@ -867,6 +865,7 @@ a:hover:after {
 
 
 
+
 /* Media query */
 
 
@@ -894,39 +893,44 @@ a:hover:after {
 
     .fa-bars {
         position: absolute;
-        top: 25px;
-        left: 30px;
+        top: 37px;
+        right: 36px;
         font-size: 25px;
         color: whitesmoke;
     }
 
     .logo img {
         position: absolute;
-        right: 0;
+        left: 0;
     }
 
 
     nav {
         position: absolute;
-        background-color: #3d3939;
-        top: 105%;
+        background-color: white;
+        top: 102%;
         left: -200px;
         /* padding: 1em 2em; */
         z-index: 1;
         /* opacity: 0; */
         width: 190px;
         transform: translateX(-1%);
-        transition: 1s linear;
+        transition: 0.5s linear;
     }
 
     nav ul {
         flex-direction: column;
-        gap: 40px;
+        gap: 24px;
         align-items: center;
     }
 
+    nav ul li a {
+        font-size: 16px;
+        color: #000000;
+    }
+
     #bar:checked~nav {
-        left: 10px;
+        left: 1px;
     }
 
     .container .con-head {
@@ -972,7 +976,6 @@ a:hover:after {
         /* border: 2px solid #00ff37; */
         height: auto;
         display: flex;
-        background: #1B1E27;
     }
 
     .right-contend h3 {
@@ -1004,13 +1007,19 @@ a:hover:after {
     }
 
 
-    .left-box,
+    .left-box {
+        padding-top: 21px;
+        padding: 0;
+
+    }
+
     .right-box {
         /* border: 2px solid yellow; */
         flex: 1;
         gap: 1px;
         margin: 0;
-        padding: 1px;
+        padding: 0;
+
     }
 
     .left-contend {
@@ -1020,7 +1029,7 @@ a:hover:after {
         justify-content: center;
         position: relative;
         overflow: hidden;
-        height: 128vh;
+
     }
 
 
@@ -1081,7 +1090,6 @@ a:hover:after {
         display: flex;
         flex-wrap: wrap;
         height: 100%;
-        width: 100%;
     }
 
     .foot-con2 {
@@ -1095,16 +1103,16 @@ a:hover:after {
         display: flex;
         flex-wrap: wrap;
         height: 100%;
-        width: 100%;
+        width: 80%;
         margin-top: 30px;
     }
 
     .foot-con3 input {
-        width: 200px;
+        width: 240px;
     }
 
     .foot-con3 button {
-        width: 200px;
+        width: 240px;
     }
 
     /* contact */
@@ -1123,14 +1131,14 @@ a:hover:after {
 
     .a-content form input {
         margin: 10px 0;
-        border: none;
+        /* border: none; */
         padding: 7px 86px 7px 4px;
     }
 
     .a-content form textarea {
         margin: 10px 0;
         padding: 7px 95px 7px 4px;
-        border: none;
+        /* border: none; */
     }
 
     .a-content1 iframe {
@@ -1152,7 +1160,7 @@ a:hover:after {
     .t-body {
         display: flex;
         flex-wrap: wrap;
-        padding: 5px;
+        padding: 10px;
     }
 
     /* every */
@@ -1187,33 +1195,31 @@ a:hover:after {
 
 
     .top-show {
-       
+
         height: 71vh;
         width: 356px;
     }
 
-    .c3 .box {
-        /* border: 2px solid rebeccapurple; */
-        height: 70vh;
-        flex: 0 0 318px;
-        position: relative;
-        overflow: hidden;
-    }
-
-
-
     .box {
         /* border: 2px solid rebeccapurple; */
-        height: 50vh;
-        flex: 0 0 278px;
+        height: 65vh;
+        flex: 0 0 340px;
         position: relative;
         overflow: hidden;
     }
 
-    .bg-f {
 
-        background: #f533c41c;
+    .container .shop {
+        justify-content: space-evenly;
+        background: #e4e49700;
         padding: 10px;
-        /* background:#e1edff; */
+    }
+
+    .cover1 .about {
+        margin-right: -86vh;
+    }
+
+    .v-mid {
+        display: none;
     }
 }

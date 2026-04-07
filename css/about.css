@@ -6,7 +6,7 @@
 
 }
 
-.cover1 .about{
+.cover1 .about {
     margin-left: -509px;
 }
 
@@ -57,7 +57,8 @@
     position: relative;
     overflow: hidden;
 }
-.book .design{
+
+.book .design {
     position: absolute;
     /* border: 2px solid yellow; */
     height: 160px;
@@ -65,38 +66,42 @@
     right: -90px;
     padding: 14px;
     z-index: 33;
-     display: grid;
+    display: grid;
     gap: 6px;
     transition: 0.5s ease;
 }
-.book:hover .design{
+
+.book:hover .design {
     right: 0;
 }
-.book .design .d1{
+
+.book .design .d1 {
     /* border: 2px solid red; */
     height: 50px;
     background-color: #BF8743;
     display: grid;
     place-items: center;
 }
-.book .design .d1 i{
+
+.book .design .d1 i {
     color: whitesmoke;
     font-size: 25px;
 }
 
- .book .top-book{
+.book .top-book {
     position: absolute;
     top: 0;
     /* border: 2px solid red; */
     height: 80%;
     width: 100%;
 }
-.book .top-book img{
+
+.book .top-book img {
     height: 100%;
     width: 100%;
 }
 
-.book .bot-book{
+.book .bot-book {
     position: absolute;
     bottom: 0;
     /* border: 2px solid; */
@@ -110,6 +115,92 @@
 .book .bot-book h2 {
     color: aliceblue;
 }
-.book .bot-book h3{
-    color:#BF8743;
+
+.book .bot-book h3 {
+    color: #BF8743;
+}
+
+.sty-body {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-img {
+    /* border: 2px solid; */
+    height: 130vh;
+    width: 90vh;
+}
+
+.left-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-img {
+    /* border: 2px solid; */
+    height: 130vh;
+    width: 90vh;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-img h1 {
+    color: rgb(255, 145, 0);
+    font-size: 2.5rem;
+}
+.right-img h2{
+    font-family: var(--font-mainhead);
+    
+}
+.title h1{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.video-body {
+   
+    /* border-bottom: 2px dotted gray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+
+.v-1 {
+    /* border: 2px solid red; */
+    height: 80vh;
+    width: 45vh;
+}
+
+.v-2 {
+    /* border: 2px solid red; */
+    height: 38vh;
+    width: 95vh;
+}
+
+.v-3 {
+    /* border: 2px solid red; */
+    height: 38vh;
+    margin-top: 25px;
+    width: 95vh;
+}
+
+.video-body video {
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    border-radius: 15px;
+    box-shadow:-1px -1px 20px 0px rgba(0, 0, 0, 0.6);
+    object-fit: cover;
+
+}
+.v-mid{
+    display: block;
 }
