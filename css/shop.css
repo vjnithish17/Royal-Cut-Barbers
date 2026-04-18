@@ -238,7 +238,7 @@
     /* border: 2px solid yellow; */
     padding: 20px;
     /* background-color: #710ad188; */
-    background-image: url(https://www.constitutionbarberhartford.com/wp-content/uploads/2025/05/Looking-for-the-best-barbershop-in-Hartford-About-1.jpg);
+    background-image: url(../project-img/footer-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -346,7 +346,7 @@
 }
 .emoji .b1:hover{
     /* opacity: 0; */
-    transform: translatey(-12px) scale(1.4);
+    transform: translatey(-6px) scale(1.1);
 }
 
 .emoji .b1 i {

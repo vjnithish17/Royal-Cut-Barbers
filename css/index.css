@@ -194,6 +194,8 @@ a:hover:after {
     border: 1px solid rgba(255, 217, 0, 0.5);
     background-color: #0000002a;
     transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-btn:hover {
@@ -289,7 +291,7 @@ a:hover:after {
 
 .main-btn:hover {
     color: gold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /* ABout 1 */
