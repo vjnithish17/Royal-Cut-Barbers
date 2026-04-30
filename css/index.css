@@ -640,7 +640,8 @@ a:hover:after {
     left: 0;
     background-color: #d4af3771;
     z-index: -9;
-    border-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
     transition: 0.3s linear;
     opacity: 0;
     transition-delay: 0.1s;
@@ -659,7 +660,7 @@ a:hover:after {
     padding: 8px;
     font-size: 15px;
     transform: rotate(-85deg);
-    /* transition: 0.1s; */
+    transition: 0.5s ease;
 }
 
 .cardcon button:hover i {
@@ -1224,5 +1225,10 @@ a:hover:after {
 
     .v-mid {
         display: none;
+    }
+
+    .right-img {
+        padding: 0px;
+
     }
 }
