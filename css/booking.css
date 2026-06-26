@@ -3,22 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 } */
-.book1{
+.book1 {
     background: url(../project-img/br-appointment.jpg);
     background-size: cover;
 }
 
 
-.appoinment{
+.appoinment {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 30px;
-   background: linear-gradient(135deg, #0F172A, #1E293B);
+    background: linear-gradient(135deg, #52555ca6, #1E293B);
+    animation: bg 5s ease infinite;
 }
 
-.appoinment-right{
+@keyframes bg {
+    0% {
+        background-color: #667080;
+    }
+
+    25% {
+        background-color: #7079888f;
+    }
+
+    50% {
+        background-color: #b9c9b9;
+    }
+
+    75% {
+        background-color: #687da0;
+    }
+
+    100% {
+        background-color: #d4d6dba6;
+    }
+}
+
+.appoinment-right {
     /* border: 2px solid green; */
     height: 100%;
     width: 70%;
@@ -26,46 +49,53 @@
     display: grid;
     place-items: center;
 }
-.appoinment-right .appoinment-content{
+
+.appoinment-right .appoinment-content {
     /* border: 2px solid yellow; */
-     height: 100%;
+    height: 100%;
     width: 90%;
 }
-.appoinment-right .appoinment-content .app-top{
+
+.appoinment-right .appoinment-content .app-top {
     /* border: 2px solid blue; */
     height: 100%;
     width: 100%;
 }
 
-.out{
+.out {
     /* border: 2px solid; */
-     gap: 10px;
-     /* margin: 30px 0; */
+    gap: 10px;
+    /* margin: 30px 0; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.first label{
+
+.first label {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     height: 100%;
-     
+
 }
-.first input{
+
+.first input {
     position: absolute;
     opacity: 0;
 }
-.first input:checked+ .t-1{
+
+.first input:checked+.t-1 {
     position: absolute;
     /* opacity: 1; */
-    background:linear-gradient(orange,rgba(255, 217, 1, 0.877));
-     box-shadow: -1px 0px 6px 0px rgb(252, 235, 5);
+    background: linear-gradient(orange, rgba(255, 217, 1, 0.877));
+    box-shadow: -1px 0px 6px 0px rgb(252, 235, 5);
 }
-.first input:checked+ .t-1 .icon i{
+
+.first input:checked+.t-1 .icon i {
     color: orangered;
 }
-.out .first .t-1{
+
+.out .first .t-1 {
     margin: 0;
     padding: 28px 30px 30px;
     /* border: 1px solid red; */
@@ -73,74 +103,81 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
-   background:  #020617;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start ;
-     grid-area: 9px;
-    
+    background: #020617;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-area: 9px;
+
 }
-.out .first .t-1 .icon i{
+
+.out .first .t-1 .icon i {
     font-size: 25px;
     color: rgb(218, 85, 85);
     padding: 10px;
 }
 
-.row{
+.row {
     /* border: 2px solid red; */
-   margin-top: 20px;
-   padding: 20px;
+    margin-top: 20px;
+    padding: 20px;
     background: #020617;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-.left-msg-6{
-    /* border: 2px solid; */
-     display: flex;
-     height: 10vh;
-     align-items: center;
-     justify-content: space-between;
-}
-.right-msg-6{
+
+.left-msg-6 {
     /* border: 2px solid; */
     display: flex;
-     height: 19vh;
-     align-items: center;
-    justify-content:space-between;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
 }
-input{
+
+.right-msg-6 {
+    /* border: 2px solid; */
+    display: flex;
+    height: 19vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
     padding: 10px;
-    background:#1E293B;
+    background: #1E293B;
     border: none;
     border-bottom: 2px solid #334155;
     cursor: pointer;
-    
+
 }
-label{
+
+label {
     cursor: pointer;
     color: white;
 }
 
-.book{
+.book {
     display: flex;
     justify-content: center;
 }
-.book .btn{
+
+.book .btn {
     margin-top: 10px;
     padding: 5px;
     width: 30vh;
     cursor: pointer;
-     border: 1px solid #334155;
+    border: 1px solid #334155;
     font-size: 15px;
     color: white;
     /* border: none; */
 }
-.app-top p{
-  
+
+.app-top p {
+
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.8rem;
-      color: #ffc403;
-  text-shadow: 0 0 10px rgba(212,175,55,0.5);
+    color: #ffc403;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
 }
