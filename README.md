@@ -46,7 +46,7 @@ npm start
 
 ##  Author
 
-**Nithish E**
+**Nithyasundharam E**
 
 -  Portfolio: https://nithish-plum.vercel.app/
 -  GitHub: https://github.com/vjnithish17
